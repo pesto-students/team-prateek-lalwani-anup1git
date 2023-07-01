@@ -56,3 +56,13 @@ SEO, or Search Engine Optimization, is about improving a website's visibility in
 9. Monitoring performance with analytics tools.
 
 These strategies help attract more organic traffic and improve search rankings. SEO is an ongoing process that requires continuous monitoring and adaptation.
+
+
+Resources
+
+- Google Search Central: https://developers.google.com/search/docs/guides
+- Web.dev: https://web.dev/
+- SEMrush: https://www.semrush.com/
+- Ahrefs Blog: https://ahrefs.com/blog/
+- W3Schools: https://www.w3schools.com/
+- Moz: https://moz.com/
