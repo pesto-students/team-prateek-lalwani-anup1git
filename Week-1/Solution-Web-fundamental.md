@@ -12,3 +12,10 @@ Application layer HTTP, TLS, DNS
 Transport Layer : TCP, UDP
 Network Layer: IP ( v4, v6 )
 Link Layer: ( Ethernet Wireless LAN )
+
+----------------------
+
+## What are the different types of web servers, and how do they differ in terms of functionality and performance?
+
+There are several types of web servers, including Apache, Nginx, IIS, Lighttpd, and Node.js. They differ in terms of performance, features, and architecture. Apache is known for its flexibility and robustness, Nginx is lightweight and efficient, IIS integrates well with Windows, Lighttpd is designed for speed and efficiency, and Node.js enables server-side JavaScript execution. Factors affecting performance include concurrency handling, memory usage, and request processing. Choose a web server based on your specific needs.
+
