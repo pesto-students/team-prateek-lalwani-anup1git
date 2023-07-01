@@ -31,3 +31,11 @@ Web hosting is the service of making websites accessible online. The different t
 5. Managed WordPress Hosting: Optimized hosting for WordPress websites.
 6. Reseller Hosting: Individuals resell hosting services to clients.
 
+----------------------
+
+## What is scaling, and why is it important for web applications? How does scaling differ for vertical and horizontal scaling?
+
+Scaling means adjusting a system to handle more or less work. It's important for web applications to work well when there are lots of users or more traffic. There are two types of scaling: 
+- Vertical scaling means making individual parts of the system bigger, like upgrading a computer. 
+- Horizontal scaling means adding more computers to share the work. 
+Deciding which type to use depends on the application's needs and how much it is expected to grow.
