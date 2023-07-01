@@ -39,3 +39,20 @@ Scaling means adjusting a system to handle more or less work. It's important for
 - Vertical scaling means making individual parts of the system bigger, like upgrading a computer. 
 - Horizontal scaling means adding more computers to share the work. 
 Deciding which type to use depends on the application's needs and how much it is expected to grow.
+
+----------------------
+
+## What is SEO (Search Engine Optimization), and how can web developers optimize their websites for better search engine rankings?
+
+SEO, or Search Engine Optimization, is about improving a website's visibility in search results. Web developers can optimize their websites by:
+1. Using relevant keywords in content.
+2. Creating high-quality and engaging content.
+3. Optimizing on-page elements like titles and headings.
+4. Designing a user-friendly website structure.
+5. Making the website mobile-friendly.
+6. Optimizing page loading speed.
+7. Building reputable backlinks.
+8. Integrating social media sharing.
+9. Monitoring performance with analytics tools.
+
+These strategies help attract more organic traffic and improve search rankings. SEO is an ongoing process that requires continuous monitoring and adaptation.
