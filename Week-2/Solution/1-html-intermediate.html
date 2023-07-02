@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+
+<table>
+  <tr>
+    <td colspan="3" style="border: 1px solid black;"><h1>1</h1></td>
+  </tr>
+  <tr>
+    <td rowspan="2" style="border: 1px solid black;"><h1>2</h1></td>
+    <td style="border: 1px solid black;"><h1>3</h1></td>
+    <td style="border: 1px solid black;"><h1>4</h1></td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid black;"><h1>5</h1></td>
+    <td style="border: 1px solid black;"><h1>6</h1></td>
+  </tr>
+</table>
+
+<!--
+The cell in the top row <td colspan="3"> has a colspan attribute set to 3. 
+This means it spans across three columns, merging with the adjacent cells to 
+create a wider cell that contains the number 1.
+
+The cell in the second row <td rowspan="2"> has a rowspan attribute set to 2. 
+This means it spans across two rows, occupying the space of two regular cells 
+vertically. It contains the number 2 and merges with the cell in the row below.
+
+These attributes allow you to manipulate the table structure, merging cells both 
+horizontally and vertically to create desired layouts and visually organize the table 
+content.
+-->
+
+<ul>
+  <li>Desktop
+    <ul>
+      <li>Linux</li>
+      <li>macOS</li>
+      <li>Windows</li>
+    </ul>
+  </li>
+  <li>Mobile
+    <ul>
+      <li>Android</li>
+      <li>iOS</li>
+    </ul>
+  </li>
+</ul>
+
+</body>
+</html>

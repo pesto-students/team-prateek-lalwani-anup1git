@@ -1,0 +1,59 @@
+/* styles.css */
+
+:root {
+   /* CSS variables */
+   --table-color: forestgreen;
+   --row-bg-color: honeydew;
+   /* Font family */
+   font-family: Calibri, Myriad;
+ }
+ 
+ #game-table {
+   /* Table styles */
+   border: 2px solid var(--table-color);
+   text-align: center;
+   height: 200px;
+   width: 400px;
+ }
+ 
+ #game-table caption {
+   /* Caption styles */
+   text-transform: uppercase;
+   background-color: var(--table-color);
+   color: white;
+   padding: 10px;
+ }
+ 
+ #game-table tr:nth-child(even) {
+   /* Even row background color */
+   background-color: var(--row-bg-color);
+ }
+ 
+ #game-table th {
+   /* Table header styles */
+   background-color: var(--table-color);
+   color: white;
+   padding: 10px;
+ }
+ 
+ #game-table td {
+   /* Table cell styles */
+   padding: 8px;
+ }
+ 
+ p {
+   /* Additional paragraph styles */
+   margin-top: 20px;
+ }
+ 
+ p a {
+   /* Link styles */
+   color: var(--link-color);
+   text-decoration: none;
+ }
+ 
+ p a:hover {
+   /* Hover effect on links */
+   text-decoration: underline;
+ }
+ 
