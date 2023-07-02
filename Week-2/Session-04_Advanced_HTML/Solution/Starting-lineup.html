@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Team Lineup</title>
+</head>
+<body>
+  <h1>Team Lineup</h1>
+  <form>
+    <p>
+      <!-- Fieldset for team status -->
+      <fieldset>
+        <legend>Team Status:</legend>
+        <label>
+          <input type="radio" name="status" value="Draft"> Draft <!-- Radio button for Draft status -->
+        </label>
+        <label>
+          <input type="radio" name="status" value="Final" checked> Final <!-- Radio button for Final status (default checked) -->
+        </label>
+      </fieldset>
+    </p>
+    <p>
+      <label for="gameDate">Game Date:</label>
+      <select id="gameDate" name="gameDate">
+        <option value="2023-03-20">March 20</option> <!-- Option for March 20 -->
+        <option value="2023-03-24">March 24</option> <!-- Option for March 24 -->
+        <option value="2023-04-02">April 2</option> <!-- Option for April 2 -->
+        <option value="2023-04-06">April 6</option> <!-- Option for April 6 -->
+        <option value="2023-04-13">April 13</option> <!-- Option for April 13 -->
+      </select>
+    </p>
+    <p>
+      <!-- Fieldset for player selection -->
+      <fieldset>
+        <legend>Players:</legend>
+        <label>
+          <input type="checkbox" name="player" value="Aarav Agarwal"> Aarav Agarwal <!-- Checkbox for Aarav Agarwal -->
+        </label>
+        <label>
+          <input type="checkbox" name="player" value="Ava Johnson"> Ava Johnson <!-- Checkbox for Ava Johnson -->
+        </label>
+        <label>
+          <input type="checkbox" name="player" value="Julio Ortiz"> Julio Ortiz <!-- Checkbox for Julio Ortiz -->
+        </label>
+        <label>
+          <input type="checkbox" name="player" value="Liam Rubio"> Liam Rubio <!-- Checkbox for Liam Rubio -->
+        </label>
+        <label>
+          <input type="checkbox" name="player" value="Emma Witherspoon"> Emma Witherspoon <!-- Checkbox for Emma Witherspoon -->
+        </label>
+      </fieldset>
+    </p>
+    <p>
+      <input type="submit" value="Submit"> <!-- Submit button -->
+    </p>
+  </form>
+</body>
+</html>
